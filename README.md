@@ -12,7 +12,7 @@ Interactive personal analytics for Chess.com games: track Elo trends, performanc
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Elo Over Time**  
   Line chart of your Chess.com rating by game (X=datetime, Y=endingElo), or resampled daily/weekly/monthly.
@@ -37,7 +37,7 @@ Interactive personal analytics for Chess.com games: track Elo trends, performanc
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Configuration
+## ⚙Configuration
 
 Set the following environment variables (or adjust in a `config.py`):
 
@@ -73,7 +73,7 @@ export STOCKFISH_PATH="/path/to/stockfish"
 
 ---
 
-## ▶️ Usage
+## ▶Usage
 
 Launch the dashboard:
 
@@ -91,7 +91,7 @@ Use the date picker, depth controls, and filters to explore:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mychessinsights/
@@ -118,7 +118,7 @@ mychessinsights/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 pytest --cov=mychessinsights
@@ -126,7 +126,7 @@ pytest --cov=mychessinsights
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo  
 2. Create a branch (`git checkout -b feature/new-feature`)  
