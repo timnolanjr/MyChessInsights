@@ -47,7 +47,7 @@ Interactive personal analytics for Chess.com games: track Elo trends, performanc
 ### Clone & Setup
 
 ```bash
-git clone https://github.com/<your-username>/mychessinsights.git
+git clone https://github.com/timnolanjr/mychessinsights.git
 cd mychessinsights
 
 # Option A: venv + pip
