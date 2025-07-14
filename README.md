@@ -8,7 +8,7 @@ Interactive personal analytics for Chess.com games: track Elo trends, performanc
 
 ## 📖 Overview
 
-**MyChessInsights** is a Dash/Plotly–powered analytics tool that pulls your Chess.com game archive, tracks your Elo over time, compares your White vs. Black performance, and runs Stockfish-driven accuracy/blunder analyses—then wraps it all in interactive visualizations so you can pinpoint strengths, weaknesses, and improvement opportunities.
+**MyChessInsights** is a Dash/Plotly–powered analytics tool that pulls your Chess.com game archive, tracks your Elo over time, compares your White vs. Black performance, and runs Stockfish-driven accuracy/blunder analyses. Then, these analyses are ported to interactive visualizations so you can see your progress over time, plus pinpoint strengths, weaknesses, and improvement opportunities to improve your chess game.
 
 ---
 
@@ -21,7 +21,7 @@ Interactive personal analytics for Chess.com games: track Elo trends, performanc
   Circle chart breaking down win/draw/loss percentages for all games and when playing White or Black. Breaks down type of win/loss (by checkmate, timeout, etc).
 
 - **Engine Analysis**  
-  Stockfish per-half-move eval, additional metadata highlighting _Great_/**Brilliant**, plus biggest missed-chances, blunders, and overall game-accuracy metrics. Classification of each move (Brilliant Best, Excellent, Great, Good, Inaccuracy, Miss, Mistake, Blunder). Results saved to a local database for fast queries.
+  Stockfish per-half-move eval, with classification of each move accuracy (Brilliant, Best, Excellent, Great, Good, Inaccuracy, Miss, Mistake, Blunder, plus the played move and best move centipawn deltas). Additional metadata highlighting overall game-accuracy _Great_/**Brilliant**, plus biggest blunders, missed-chances, and  metrics. Results saved to a local database for fast queries.
 
 - **Group Level Analysis**  
   Analyze an entire portfolio of games to describe style, point out weaknesses, and suggest areas to improve play (e.g. increase early rook movement, pawn play, development speed).
