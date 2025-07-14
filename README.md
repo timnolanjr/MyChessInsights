@@ -141,7 +141,3 @@ Please run tests and adhere to PEP 8 + black formatting.
 ## 📝 License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
-*Built with ♥ by Timothy Nolan Jr.*  
